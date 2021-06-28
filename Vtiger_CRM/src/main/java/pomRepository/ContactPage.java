@@ -71,7 +71,13 @@ public class ContactPage {
 	private WebElement ContactInformation;
 	
 	public WebElement getContactInformation() {
-		return ContactInformation;
-		
-	}
+		return ContactInformation;	
+	}		
+	
+	@FindBy(xpath="") 
+	private WebElement dummyElement;
+
+	public WebElement getDummyElement() {
+		return dummyElement;
+	}	
 }
